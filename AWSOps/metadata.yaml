@@ -1,0 +1,11 @@
+author: brandon
+collaborator: 
+date: 2015-01-29
+name: AWSops
+slug: awsops
+tags: automate, aws, cloud
+description: Methods to manage additional services in AWS
+version: 0.1
+miq_ver: anand
+dependencies: aws-sdk-v1 gem
+ 
