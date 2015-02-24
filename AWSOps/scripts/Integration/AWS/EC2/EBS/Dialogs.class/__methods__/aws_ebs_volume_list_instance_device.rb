@@ -1,6 +1,6 @@
 ##################################
 #
-# CFME Automate Method: AWS_EBS_Volume_List_for_Instance
+# CFME Automate Method: AWS_EBS_Volume_List_Instance_Device
 #
 # Notes: This method will List all available EBS volumes in the same zone as a selected instance
 #
@@ -24,7 +24,7 @@ begin
     log(:info, "Root:<$evm.root> End $evm.root.attributes")
     log(:info, "")
   end
-  
+
 
   log(:info, "CFME Automate Method Started")
 
@@ -50,7 +50,7 @@ begin
   )
 
 
-  
+
   instanceid = vm.ems_ref
   log(:info, "Instance ID:  #{instanceid}")
 
@@ -60,7 +60,7 @@ begin
   log(:info, "Region: #{ec2.name}")
 
 
-  
+
 
 
   block_hash = {}
