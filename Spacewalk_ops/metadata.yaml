@@ -1,0 +1,11 @@
+author: brandon, rammrex
+collaborator: 
+date: 2015-01-29
+name: SpacewalkOPS
+slug: spacwalkops
+tags: automate, spacewalk, configuration management
+description: Basic integration with Spacewalk/Satellite 5.  Helps manage the lifecycle of a VM in spacewalk.  Such as checking and applying updates and removing a system from spacewalk on retirement
+version: 0.1
+miq_ver: anand
+dependencies: xmlrpc/client netssh
+ 
