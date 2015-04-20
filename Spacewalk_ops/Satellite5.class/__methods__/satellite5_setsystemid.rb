@@ -2,7 +2,7 @@
 #
 # CFME Automate Method: Satellite5_SetSystemID
 #
-# by Keivn Morey
+# by Kevin Morey
 #
 # Notes: This method stamps the Satellite SystemID on a VM's Custom Attributes
 # - Gem requirements: xmlrpc/client

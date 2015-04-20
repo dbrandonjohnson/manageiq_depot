@@ -2,7 +2,7 @@
 #
 # CFME Automate Method: Satellite5_RemoveSystem
 #
-# by Keivn Morey
+# by Kevin Morey
 #
 # Notes: This method removes a VM from Satellite
 # - Gem requirements: xmlrpc/client
