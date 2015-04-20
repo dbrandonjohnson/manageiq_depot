@@ -68,7 +68,7 @@ begin
   for snapshot in ec2.snapshots.with_owner("self")
     log(:info, "#{snapshot.id} #{snapshot.status} #{snapshot.volume_id}")
   #  log(:info, "#{aws.hostname} -> #{snapshot.id}")
-     snap_hash[snapshot.id] = "#{snapshot.id}" if snapshot.status == :completed and vm.custom_get("Attached_EBSVolume_/dev/sdd") == snapshot.volume.id and snapshot.
+     snap_hash[snapshot.id] = "#{snapshot.id}" if snapshot.status == :completed and vm.custom_get("Attached_EBSVolume_/dev/sdd") == snapshot.volume.id
   end
   log(:info, "#{snap_hash}")
 

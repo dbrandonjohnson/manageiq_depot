@@ -1,9 +1,10 @@
 ##AWSops
 
-Custom Methods for EBS
+Custom Methods for Managing EBS volumes in CloudForms
 
 Import AWSops domain into ManageIQ
+
+
+
 Import dialogs
 Create buttons
-
-Link to video demo
