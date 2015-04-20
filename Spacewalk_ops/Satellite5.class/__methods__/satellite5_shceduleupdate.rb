@@ -2,7 +2,7 @@
 #
 # CFME Automate Method: Satellite5_ScheduleUpdate
 #
-# by Kevin Morey
+# by Brandon Johnson
 #
 # Notes: This method removes a VM from Satellite
 # - Gem requirements: xmlrpc/client
